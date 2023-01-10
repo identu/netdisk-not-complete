@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<h2>{{ request.session.user_name }}已登录</h2>
+<h4>{{ request.session.all_files }}</h4>
+<ul></ul>
+<p>
+    <input type="button" onclick="window.location.href='{% url "logout" %}' "  value="登出" style="height: 50px; width:80px"/>
+</p>
+<p>
+    <input type="button" onclick="window.location.href='/uploadFile' "  value="上传" style="height: 50px; width:80px"/>
+</p>
+<script>
+
+</script>
+</body>
+</html>
