@@ -1,0 +1,12 @@
+
+spring:
+  minio:
+    endpoint: http://${MINIO_HOST:127.0.0.1}:${MINIO_PORT:9000}
+    accessKey: admin
+    secretKey: admin123456
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 1000MB
+server:
+  port : 25300
