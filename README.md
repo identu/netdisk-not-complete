@@ -1,2 +1,2 @@
 # netdisk-not-complete
-项目用到Docker-MinIO
+I'll do it again when I have time
